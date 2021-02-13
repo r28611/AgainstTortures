@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		AB8DE7B125D71BBC0095B368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DE7B025D71BBC0095B368 /* AppDelegate.swift */; };
 		AB8DE7B325D71BBC0095B368 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DE7B225D71BBC0095B368 /* SceneDelegate.swift */; };
-		AB8DE7B525D71BBC0095B368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DE7B425D71BBC0095B368 /* ViewController.swift */; };
 		AB8DE7B825D71BBC0095B368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8DE7B625D71BBC0095B368 /* Main.storyboard */; };
 		AB8DE7BB25D71BBC0095B368 /* AgainstTortures.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB8DE7B925D71BBC0095B368 /* AgainstTortures.xcdatamodeld */; };
 		AB8DE7BD25D71BBE0095B368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8DE7BC25D71BBE0095B368 /* Assets.xcassets */; };
 		AB8DE7C025D71BBE0095B368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8DE7BE25D71BBE0095B368 /* LaunchScreen.storyboard */; };
+		AB8DE7CB25D722A50095B368 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8DE7CA25D722A50095B368 /* WelcomeVC.swift */; };
+		AB92D6B925D72C2E00CB0487 /* AuthMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB92D6B825D72C2E00CB0487 /* AuthMobileVC.swift */; };
+		AB92D6BD25D73A2300CB0487 /* CodeCheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB92D6BC25D73A2300CB0487 /* CodeCheckVC.swift */; };
+		AB92D6C025D7464E00CB0487 /* InfoVC_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB92D6BF25D7464E00CB0487 /* InfoVC_1.swift */; };
+		AB92D6C325D7495A00CB0487 /* InfoVC_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB92D6C225D7495A00CB0487 /* InfoVC_2.swift */; };
+		ABD02C4325D7CFAF007A885B /* InfoVC_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD02C4225D7CFAF007A885B /* InfoVC_3.swift */; };
+		ABD02C4625D7E492007A885B /* InfoVC_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD02C4525D7E492007A885B /* InfoVC_4.swift */; };
+		ABD02C4925D7E4C1007A885B /* InfoVC_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD02C4825D7E4C1007A885B /* InfoVC_5.swift */; };
+		ABD02C4C25D7E571007A885B /* EndRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD02C4B25D7E571007A885B /* EndRegistrationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB8DE7AD25D71BBC0095B368 /* AgainstTortures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgainstTortures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8DE7B025D71BBC0095B368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB8DE7B225D71BBC0095B368 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB8DE7B425D71BBC0095B368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB8DE7B725D71BBC0095B368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB8DE7BA25D71BBC0095B368 /* AgainstTortures.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgainstTortures.xcdatamodel; sourceTree = "<group>"; };
 		AB8DE7BC25D71BBE0095B368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8DE7BF25D71BBE0095B368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8DE7C125D71BBE0095B368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8DE7CA25D722A50095B368 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		AB92D6B825D72C2E00CB0487 /* AuthMobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMobileVC.swift; sourceTree = "<group>"; };
+		AB92D6BC25D73A2300CB0487 /* CodeCheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeCheckVC.swift; path = AgainstTortures/CodeCheckVC.swift; sourceTree = SOURCE_ROOT; };
+		AB92D6BF25D7464E00CB0487 /* InfoVC_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoVC_1.swift; path = AgainstTortures/InfoVC_1.swift; sourceTree = SOURCE_ROOT; };
+		AB92D6C225D7495A00CB0487 /* InfoVC_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoVC_2.swift; path = AgainstTortures/InfoVC_2.swift; sourceTree = SOURCE_ROOT; };
+		ABD02C4225D7CFAF007A885B /* InfoVC_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoVC_3.swift; path = AgainstTortures/InfoVC_3.swift; sourceTree = SOURCE_ROOT; };
+		ABD02C4525D7E492007A885B /* InfoVC_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoVC_4.swift; path = AgainstTortures/InfoVC_4.swift; sourceTree = SOURCE_ROOT; };
+		ABD02C4825D7E4C1007A885B /* InfoVC_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoVC_5.swift; path = AgainstTortures/InfoVC_5.swift; sourceTree = SOURCE_ROOT; };
+		ABD02C4B25D7E571007A885B /* EndRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EndRegistrationVC.swift; path = AgainstTortures/EndRegistrationVC.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,7 @@
 		AB8DE7A425D71BBC0095B368 = {
 			isa = PBXGroup;
 			children = (
+				AB8DE7CD25D722B00095B368 /* LoginVCs */,
 				AB8DE7AF25D71BBC0095B368 /* AgainstTortures */,
 				AB8DE7AE25D71BBC0095B368 /* Products */,
 			);
@@ -60,7 +77,6 @@
 			children = (
 				AB8DE7B025D71BBC0095B368 /* AppDelegate.swift */,
 				AB8DE7B225D71BBC0095B368 /* SceneDelegate.swift */,
-				AB8DE7B425D71BBC0095B368 /* ViewController.swift */,
 				AB8DE7B625D71BBC0095B368 /* Main.storyboard */,
 				AB8DE7BC25D71BBE0095B368 /* Assets.xcassets */,
 				AB8DE7BE25D71BBE0095B368 /* LaunchScreen.storyboard */,
@@ -68,6 +84,22 @@
 				AB8DE7B925D71BBC0095B368 /* AgainstTortures.xcdatamodeld */,
 			);
 			path = AgainstTortures;
+			sourceTree = "<group>";
+		};
+		AB8DE7CD25D722B00095B368 /* LoginVCs */ = {
+			isa = PBXGroup;
+			children = (
+				ABD02C4B25D7E571007A885B /* EndRegistrationVC.swift */,
+				ABD02C4825D7E4C1007A885B /* InfoVC_5.swift */,
+				ABD02C4525D7E492007A885B /* InfoVC_4.swift */,
+				ABD02C4225D7CFAF007A885B /* InfoVC_3.swift */,
+				AB92D6C225D7495A00CB0487 /* InfoVC_2.swift */,
+				AB92D6BF25D7464E00CB0487 /* InfoVC_1.swift */,
+				AB92D6BC25D73A2300CB0487 /* CodeCheckVC.swift */,
+				AB92D6B825D72C2E00CB0487 /* AuthMobileVC.swift */,
+				AB8DE7CA25D722A50095B368 /* WelcomeVC.swift */,
+			);
+			path = LoginVCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +172,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8DE7B525D71BBC0095B368 /* ViewController.swift in Sources */,
+				AB92D6BD25D73A2300CB0487 /* CodeCheckVC.swift in Sources */,
 				AB8DE7B125D71BBC0095B368 /* AppDelegate.swift in Sources */,
 				AB8DE7B325D71BBC0095B368 /* SceneDelegate.swift in Sources */,
 				AB8DE7BB25D71BBC0095B368 /* AgainstTortures.xcdatamodeld in Sources */,
+				AB92D6C025D7464E00CB0487 /* InfoVC_1.swift in Sources */,
+				ABD02C4C25D7E571007A885B /* EndRegistrationVC.swift in Sources */,
+				ABD02C4325D7CFAF007A885B /* InfoVC_3.swift in Sources */,
+				AB8DE7CB25D722A50095B368 /* WelcomeVC.swift in Sources */,
+				ABD02C4925D7E4C1007A885B /* InfoVC_5.swift in Sources */,
+				AB92D6B925D72C2E00CB0487 /* AuthMobileVC.swift in Sources */,
+				AB92D6C325D7495A00CB0487 /* InfoVC_2.swift in Sources */,
+				ABD02C4625D7E492007A885B /* InfoVC_4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rs.newhome.AgainstTortures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rs.newhome.AgainstTortures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
