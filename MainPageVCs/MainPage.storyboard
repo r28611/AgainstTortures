@@ -27,6 +27,9 @@
                                 <state key="normal" title="+  Новое заявление">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="FmL-Ik-Vw5" kind="presentation" modalPresentationStyle="fullScreen" id="h8j-hM-kmg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Здравствуйте, Петр Петрович" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMh-S1-5Dl">
                                 <rect key="frame" x="16" y="144" width="382" height="56"/>
@@ -123,6 +126,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4n2-bE-LA6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="757.97101449275374" y="20.758928571428569"/>
+        </scene>
+        <!--WhoDidThat-->
+        <scene sceneID="FnL-BK-3b5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="WhoDidThat" id="FmL-Ik-Vw5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RSz-uG-m2c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="759" y="537"/>
         </scene>
         <!--ArticlesVC-->
         <scene sceneID="VzB-dV-kcJ">

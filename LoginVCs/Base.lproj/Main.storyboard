@@ -361,7 +361,7 @@
                                     <constraint firstAttribute="height" constant="6" id="Zjs-2k-pvH"/>
                                 </constraints>
                             </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6g-pT-PWa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Фамилия" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6g-pT-PWa">
                                 <rect key="frame" x="16" y="193" width="382" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="16" id="bK7-8Y-P6f"/>
@@ -370,7 +370,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Фамилия" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41O-0z-6FJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41O-0z-6FJ">
                                 <rect key="frame" x="16" y="272" width="382" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="cwu-fa-ccU"/>
@@ -527,15 +527,6 @@
                                     <action selector="dateDidChanged:" destination="g2U-9f-nYz" eventType="valueChanged" id="mH1-pq-gvG"/>
                                 </connections>
                             </datePicker>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXv-2d-K2t">
-                                <rect key="frame" x="178.5" y="225" width="57" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="SW3-Hx-cD0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3R-kU-emf">
                                 <rect key="frame" x="16" y="580" width="382" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -550,6 +541,14 @@
                                     <segue destination="UY1-e9-oGg" kind="presentation" modalPresentationStyle="fullScreen" id="T2A-6e-bKp"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="19 Августа 1994" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WKY-G1-IxY">
+                                <rect key="frame" x="16" y="225" width="382" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="8WK-tm-kzF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GR0-Hd-ZEe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -558,10 +557,10 @@
                             <constraint firstItem="Ruc-dI-ujh" firstAttribute="top" secondItem="qae-1f-fgT" secondAttribute="bottom" id="3TV-Am-J6z"/>
                             <constraint firstItem="fcx-kg-fii" firstAttribute="top" secondItem="uZk-NT-cuW" secondAttribute="bottom" constant="25" id="84J-rg-oFm"/>
                             <constraint firstItem="GR0-Hd-ZEe" firstAttribute="trailing" secondItem="U3R-kU-emf" secondAttribute="trailing" constant="16" id="8DF-4Q-802"/>
+                            <constraint firstItem="GR0-Hd-ZEe" firstAttribute="trailing" secondItem="WKY-G1-IxY" secondAttribute="trailing" constant="16" id="DAc-OI-GVF"/>
                             <constraint firstItem="HWp-JD-Djj" firstAttribute="top" secondItem="U3R-kU-emf" secondAttribute="bottom" constant="16" id="Is9-sO-6mL"/>
-                            <constraint firstItem="aXv-2d-K2t" firstAttribute="centerX" secondItem="lgF-BV-skG" secondAttribute="centerX" id="KfQ-JM-N1F"/>
                             <constraint firstItem="GR0-Hd-ZEe" firstAttribute="trailing" secondItem="fcx-kg-fii" secondAttribute="trailing" constant="16" id="TYf-d7-rM8"/>
-                            <constraint firstItem="aXv-2d-K2t" firstAttribute="top" secondItem="fcx-kg-fii" secondAttribute="bottom" constant="16" id="YiF-Oh-dZ4"/>
+                            <constraint firstItem="WKY-G1-IxY" firstAttribute="top" secondItem="fcx-kg-fii" secondAttribute="bottom" constant="16" id="Zt7-Fi-KZR"/>
                             <constraint firstItem="GR0-Hd-ZEe" firstAttribute="trailing" secondItem="uZk-NT-cuW" secondAttribute="trailing" constant="16" id="aDY-rG-ZUx"/>
                             <constraint firstItem="Ruc-dI-ujh" firstAttribute="centerX" secondItem="lgF-BV-skG" secondAttribute="centerX" id="bfE-YI-Noj"/>
                             <constraint firstItem="GR0-Hd-ZEe" firstAttribute="bottom" secondItem="HWp-JD-Djj" secondAttribute="bottom" id="d1Z-zV-NTS"/>
@@ -570,12 +569,12 @@
                             <constraint firstItem="uZk-NT-cuW" firstAttribute="top" secondItem="Ruc-dI-ujh" secondAttribute="bottom" constant="33" id="nSl-bz-dKj"/>
                             <constraint firstItem="GR0-Hd-ZEe" firstAttribute="trailing" secondItem="HWp-JD-Djj" secondAttribute="trailing" id="oMH-5l-HNN"/>
                             <constraint firstItem="qae-1f-fgT" firstAttribute="top" secondItem="GR0-Hd-ZEe" secondAttribute="top" constant="16" id="q0I-Wj-XwZ"/>
+                            <constraint firstItem="WKY-G1-IxY" firstAttribute="leading" secondItem="GR0-Hd-ZEe" secondAttribute="leading" constant="16" id="rew-up-3og"/>
                             <constraint firstItem="fcx-kg-fii" firstAttribute="leading" secondItem="GR0-Hd-ZEe" secondAttribute="leading" constant="16" id="t6X-Yg-6n9"/>
                             <constraint firstItem="uZk-NT-cuW" firstAttribute="leading" secondItem="GR0-Hd-ZEe" secondAttribute="leading" constant="16" id="yXy-Qd-71N"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="dateLabel" destination="aXv-2d-K2t" id="0Hd-5I-tRd"/>
                         <outlet property="datePicker" destination="HWp-JD-Djj" id="eRd-lf-JfU"/>
                         <outlet property="nextButton" destination="U3R-kU-emf" id="QKE-kw-nHa"/>
                         <outlet property="stepper" destination="uZk-NT-cuW" id="d6V-aW-Vlo"/>
