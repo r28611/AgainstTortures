@@ -1,33 +1,26 @@
 //
-//  CodeCheckVC.swift
+//  ArticlesVC.swift
 //  AgainstTortures
 //
-//  Created by Margarita Novokhatskaia on 12.02.2021.
+//  Created by Margarita Novokhatskaia on 13.02.2021.
 //
 
 import UIKit
 
-class CodeCheckVC: UIViewController {
+class ArticlesVC: UIViewController {
 
-    @IBOutlet weak var firstNumber: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.firstNumber.keyboardType = .numberPad
-        
         // Do any additional setup after loading the view.
     }
     
-
-    @IBAction func lastNumberInjected(_ sender: UITextField) {
-        if let text = sender.text {
-            if text.count > 0 {
-                performSegue(withIdentifier: "to_fillInfo", sender: self)
-            }
-            
-        }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
         
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
+
     /*
     // MARK: - Navigation
 

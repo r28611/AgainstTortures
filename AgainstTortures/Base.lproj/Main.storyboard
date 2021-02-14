@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zcs-f7-IvE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -322,6 +322,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="firstNumber" destination="x0f-e9-rIG" id="kZw-mQ-rJL"/>
                         <segue destination="IRB-b0-9oA" kind="presentation" identifier="to_fillInfo" modalPresentationStyle="fullScreen" id="IH7-G2-fvz"/>
                     </connections>
                 </viewController>
@@ -583,55 +584,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="61N-Sq-FYa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3206" y="94"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="MQ4-HC-9Oo">
-            <objects>
-                <viewController id="20p-gH-Q7D" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NJ0-Vy-g6x">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Заполните ваши данные" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3L9-st-kFZ">
-                                <rect key="frame" x="63" y="60" width="288" height="29"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJk-VL-N3J">
-                                <rect key="frame" x="60" y="89" width="294.5" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Py5-c8-TSW"/>
-                                </constraints>
-                                <string key="text">Это нужно для составления обращений, 
-жалоб и прочих документов</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.20000000298023224" translatesAutoresizingMaskIntoConstraints="NO" id="p4U-AH-AAt">
-                                <rect key="frame" x="16" y="162" width="382" height="6"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="6" id="KOz-jh-OA5"/>
-                                </constraints>
-                            </progressView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Qzp-hV-nxZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="p4U-AH-AAt" firstAttribute="leading" secondItem="Qzp-hV-nxZ" secondAttribute="leading" constant="16" id="1yu-aY-vlt"/>
-                            <constraint firstItem="Qzp-hV-nxZ" firstAttribute="trailing" secondItem="p4U-AH-AAt" secondAttribute="trailing" constant="16" id="31M-dv-tO8"/>
-                            <constraint firstItem="3L9-st-kFZ" firstAttribute="top" secondItem="Qzp-hV-nxZ" secondAttribute="top" constant="16" id="D6x-X8-FkL"/>
-                            <constraint firstItem="p4U-AH-AAt" firstAttribute="top" secondItem="JJk-VL-N3J" secondAttribute="bottom" constant="33" id="TAC-kf-QPC"/>
-                            <constraint firstItem="JJk-VL-N3J" firstAttribute="centerX" secondItem="NJ0-Vy-g6x" secondAttribute="centerX" id="V9p-af-K4F"/>
-                            <constraint firstItem="JJk-VL-N3J" firstAttribute="top" secondItem="3L9-st-kFZ" secondAttribute="bottom" id="a0A-Ei-hLj"/>
-                            <constraint firstItem="3L9-st-kFZ" firstAttribute="centerX" secondItem="NJ0-Vy-g6x" secondAttribute="centerX" id="oUi-hB-eFt"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q2S-P7-ZkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3206" y="827"/>
         </scene>
         <!--InfoVC3-->
         <scene sceneID="6cU-V2-hS8">
@@ -1073,6 +1025,9 @@
                                 <state key="normal" title="Перейти на главную">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="B6f-Hj-hGv" kind="presentation" modalPresentationStyle="fullScreen" id="j29-4B-VG2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qJ-UD-xZc">
                                 <rect key="frame" x="174.5" y="178.5" width="65" height="72"/>
@@ -1130,6 +1085,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qby-Gf-rYf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6179.7101449275369" y="93.75"/>
+        </scene>
+        <!--MainPage-->
+        <scene sceneID="XpH-8T-SmT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MainPage" id="B6f-Hj-hGv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JME-AL-4A8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7279" y="-37"/>
         </scene>
     </scenes>
     <resources>

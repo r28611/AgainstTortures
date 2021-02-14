@@ -16,6 +16,7 @@ class AuthMobileVC: UIViewController {
         super.viewDidLoad()
         
         okButton.layer.cornerRadius = 12
+        mobile.keyboardType = .numberPad
     }
     
     @IBAction func mobileChanged(_ sender: UITextField) {
@@ -30,3 +31,10 @@ class AuthMobileVC: UIViewController {
         }
     }
 }
+
+//доделать потом форматирование номера +7 (922) 333-33-33
+//extension AuthMobileVC: UITextFieldDelegate {
+//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+//        let fullString = textField.text ?? ""
+//    }
+//}
